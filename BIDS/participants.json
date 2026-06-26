@@ -1,0 +1,37 @@
+{
+    "participant_id": {
+        "Description": "Unique participant identifier"
+    },
+    "sex": {
+        "Description": "Biological sex of the participant",
+        "Levels": {
+            "F": "female",
+            "M": "male"
+        }
+    },
+    "age": {
+        "Description": "Age of the participant at time of testing",
+        "Units": "years"
+    },
+    "group": {
+        "Description": "Study group assignment. Twin pair classification."
+        "Levels": {
+            "PR": "Proband Pair - Twin pair includes one diagnosed individual with schizophrenia and one undiagnosed individual",
+            "HC": "Healthy Control - Twin pair with no history of schizophrenia"
+        }
+    },
+    "pair_id": {
+        "Description": "Identifier shared between twin participants"
+    },
+    "twin_type_ab": {
+        "Description": "Twin pair designation within a twin set (e.g., 'a' or 'b')"
+    },
+    "clinical_group (Pr0/HP1/HC2)": {
+        "Description": "Individual clinical classification: 0 = Proband (Pr), 1 = Healthy Pair (HP), 2 = Healthy Control (HC)",
+        "Levels": {
+            "0": "Proband (Pr) - twin diagnosed with schizophrenia",
+            "1": "Healthy Pair (HP) - co-twin of a diagnosed proband, no diagnosis",
+            "2": "Healthy Control (HC) - twin from a pair with no diagnosis of schizophrenia"
+        }
+    }
+}

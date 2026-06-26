@@ -1,0 +1,28 @@
+# Core EEG processing
+mne
+mne-bids
+mne-icalabel
+autoreject
+edfio
+
+# Spectral analysis
+fooof
+
+# Numerical / data
+numpy
+pandas
+scipy
+
+# Visualisation
+matplotlib
+seaborn
+
+# Machine learning
+scikit-learn
+tqdm
+
+# Optional: 3D brain visualisation (script 2)
+# pyvistaqt
+# qtpy
+# ipywidgets
+# ipyevents

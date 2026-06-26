@@ -1,0 +1,11 @@
+{
+    "Name": "[Twin Resting-State EEG Dataset for Schizophrenia Biomarker Exploration]",
+    "BIDSVersion": "1.7.0",
+    "DatasetType": "raw",
+    "Authors": [
+        "[Martin Antunez]",
+        "[Ane Cathrine Holst Merrild]",
+        "[Karen Marie Sandø Ambrosen]",
+        "[Tobias Andersen]"
+    ]
+}
