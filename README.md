@@ -4,6 +4,14 @@ A full EEG analysis pipeline for a twin study investigating schizophrenia biomar
 Raw EEG recordings are converted to BIDS format, preprocessed, source-localized,
 and then transformed into spectral and connectivity features for machine learning classification.
 
+The pipeline covers: ICA-based artefact removal (ICLabel) and epoch cleaning (AutoReject);
+cortical source localisation via dSPM (fsaverage template, aparc parcellation);
+functional connectivity using weighted Phase Lag Index (wPLI) across five frequency bands
+(delta, theta, alpha, beta, gamma); spectral decomposition with FOOOF to separate aperiodic
+and periodic signal components; and classification using Support Vector Machines (SVC),
+Random Forest, and Gradient Boosting under nested cross-validation (5-fold outer, 3-fold inner)
+with PCA dimensionality reduction and sequential forward feature selection.
+
 ---
 
 ## Clinical Groups
